@@ -1,9 +1,9 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #004522; }
+  font: 14px 'Space Mono', monospace;
+  background-color: #388e3c; }
 
 nav {
-  background-color: #054367;
+  background-color: #1b5e20;
   height: 100px; }
 
 #menuButton {
@@ -28,10 +28,23 @@ nav {
 a {
   color: #00B7FF; }
 
-.card-image .jumbo {
-  height: 400px; }
+.section {
+  background-color: #388e3c; }
 
-.card-image .card-title {
-  font-size: 36px; }
+.aboutPics {
+  width: auto;
+  height: 200px;
+  opacity: .8; }
+
+#snippets {
+  text-align: center; }
+  @media screen and (min-width: 560px) {
+    #snippets {
+      margin-left: 5%; } }
+  #snippets p {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    margin: 7.5%; }
 
 /*# sourceMappingURL=style.css.map */
