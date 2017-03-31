@@ -4,7 +4,9 @@ body {
 
 nav {
   background-color: #1b5e20;
-  height: 100px; }
+  height: 100px;
+  border-width: 0px 0px 5px 0px;
+  border-color: #cc5500; }
 
 #menuButton {
   font-size: 36px;
@@ -25,26 +27,49 @@ nav {
   height: 100px;
   padding-top: 20px; }
 
-a {
-  color: #00B7FF; }
-
 .section {
-  background-color: #388e3c; }
+  background-color: #1b5e20; }
 
 .aboutPics {
   width: auto;
   height: 200px;
   opacity: .8; }
 
+.paraLogo {
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
 #snippets {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
   @media screen and (min-width: 560px) {
     #snippets {
       margin-left: 5%; } }
   #snippets p {
-    font-size: 18px;
-    color: #222;
-    font-weight: bold;
-    margin: 7.5%; }
+    font-size: 24px;
+    color: #999;
+    font-weight: bold; }
+
+.paraText {
+  text-align: center;
+  margin-top: 50px;
+  color: #cc5500; }
+
+.section {
+  border-width: 10px 0px 10px 0px;
+  border-style: solid;
+  border-color: #cc5500; }
+
+.waves-effect.waves-light.btn-large {
+  background-color: #cc5500; }
+
+.buttonRow {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
