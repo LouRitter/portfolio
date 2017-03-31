@@ -46,7 +46,8 @@ nav {
   vertical-align: middle; }
   @media screen and (max-width: 560px) {
     .paraLogo {
-      width: 90%; } }
+      width: 90%;
+      margin-top: 150px; } }
 
 #snippets {
   text-align: center;
