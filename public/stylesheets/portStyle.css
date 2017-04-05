@@ -1,10 +1,6 @@
 * {
   box-sizing: border-box; }
 
-/* force scrollbar */
-html {
-  overflow-y: scroll; }
-
 /* ---- grid ---- */
 .grid {
   background: #DDD; }
@@ -26,4 +22,39 @@ html {
     display: block;
     max-width: 100%; }
 
-/*# sourceMappingURL=portStyle.css.map */
+#portBack {
+  height: 100%; }
+
+.galButton {
+  margin: 5px; }
+
+@media screen and (min-width: 1160px) {
+  .description {
+    margin-left: 48%;
+    margin-top: 20px;
+    width: 50%;
+    position: relative; } }
+
+.carousel-wrapper {
+  margin-top: 110px;
+  width: 50% !important;
+  float: right; }
+
+#placeholder-navbar {
+  margin-bottom: 50px;
+  height: 50px; }
+
+@media screen and (min-width: 1160px) {
+  .gallery-body {
+    margin-top: 20px !important;
+    padding: 30px !important;
+    width: 80% !important; } }
+
+.title-wrapper {
+  padding-top: 10px; }
+  @media screen and (min-width: 1160px) {
+    .title-wrapper {
+      margin-bottom: 0px !important;
+      height: 20% !important; } }
+
+/*# sourceMappingURL=portstyle.css.map */

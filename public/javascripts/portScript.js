@@ -1,4 +1,5 @@
 $( document ).ready(function(){
+
 var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
   percentPosition: true,
@@ -14,5 +15,6 @@ $('.gallery-expand').galleryExpand('open');
 // Close
 $('.gallery-expand').galleryExpand('close');
 
+ $(".button-collapse").sideNav();
 
 });

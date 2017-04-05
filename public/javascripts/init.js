@@ -3,7 +3,6 @@
 
 
     // Navbar
-    $(".button-collapse").sideNav();
     var categories = $('nav .categories-container');
     if (categories.length) {
       categories.pushpin({ top: categories.offset().top });
