@@ -52,19 +52,17 @@
     padding: 30px !important;
     width: 80% !important; } }
 
-.title-wrapper {
-  padding-top: 90px; }
-  @media screen and (min-width: 1160px) {
-    .title-wrapper {
-      margin-bottom: 0px !important;
-      height: 20% !important; } }
+@media screen and (min-width: 1160px) {
+  .title-wrapper {
+    margin-bottom: 0px !important;
+    height: 20% !important;
+    padding-top: 90px; } }
 
 a {
-  font-size: 18px !important;
-  opacity: 1; }
+  font-size: 18px !important; }
 
 @media screen and (max-width: 780px) {
   .btn.waves-effect.waves-light {
     margin-bottom: 10px; } }
 
-/*# sourceMappingURL=portstyle.css.map */
+/*# sourceMappingURL=portStyle.css.map */

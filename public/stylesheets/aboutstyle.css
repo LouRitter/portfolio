@@ -1,0 +1,27 @@
+body {
+  background-color: #1b5e20;
+  color: #fff; }
+
+.parallax.aboutpara {
+  opacity: .3; }
+
+.parallax-container {
+  height: 1500px; }
+
+#me {
+  margin-top: 15%;
+  height: 20%;
+  width: auto;
+  margin-left: 60px; }
+
+.card-panel {
+  opacity: .8;
+  margin-top: 15%; }
+
+#caro {
+  margin-top: 10px; }
+
+.carousel {
+  height: 200px; }
+
+/*# sourceMappingURL=aboutstyle.css.map */
