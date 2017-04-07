@@ -63,9 +63,9 @@ nav {
     #snippets {
       margin-left: 5%; } }
   #snippets p {
-    font-size: 24px;
-    color: #999;
-    font-weight: bold; }
+    font-size: 18px;
+    color: #fff;
+    line-height: 120%; }
 
 .paraText {
   text-align: center;
@@ -82,5 +82,11 @@ nav {
 
 .buttonRow {
   text-align: center; }
+
+#email {
+  margin-left: 10px; }
+
+#messagelabel {
+  padding-left: 10px !important; }
 
 /*# sourceMappingURL=style.css.map */
