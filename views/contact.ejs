@@ -37,34 +37,41 @@
       <div class="row">
         <div class="container">
           <div class="card-panel green darken-4">
+            <form class="contact" method="post" action="/send">
                   <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s10 l6">
                       <i class="material-icons prefix">account_circle</i>
-                      <input id="icon_prefix" type="text" class="validate">
+                      <input id="icon_prefix" type="text" class="validate name" name="name">
                       <label for="icon_prefix">Full Name</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s10 l6">
                       <i class="material-icons prefix">phone</i>
-                      <input id="icon_telephone" type="tel" class="validate">
+                      <input id="icon_telephone" name="phone" type="tel" class="validate phone">
                       <label for="icon_telephone">Telephone</label>
                     </div>
                   </div>
-                  <div class="input-field col s6">
+                  <div class="input-field col s10">
                       <i class="material-icons prefix">markunread_mailbox</i>
-                      <input id="icon_prefix" type="text" class="validate">
+                      <input id="icon_prefix" type="text" class="validate email" name="mail">
                       <label for="icon_prefix">Email Adress</label>
                   </div>
                   <div class="row">
-                    <form class="col s10">
-                      <div class="row">
-                        <div class="input-field col s10">
-                            <i class="material-icons prefix" id="email">email</i>
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                            <label for="textarea1" id="messagelabel">Message</label>
-                        </div>
-                      </div>
-                    </form>
+                    <div class="input-field col s10">
+                      <i class="material-icons prefix" id="email">email</i>
+                        <textarea id="textarea1" class="materialize-textarea message" name="comment"></textarea>
+                        <label for="textarea1" id="messagelabel">Message</label>
+                    </div>
+                  </div> 
+                   <div class="row">
+                 <div class="col s2 offset-s4">
+                   <button class="btn waves-effect waves-light" type="submit" value="Send">Send
+                      <i class="material-icons right">send</i>
+                   </button>
                  </div>
+                 </div>
+            </div>
+                
+            </form>
           </div>
         </div>
       </div>
@@ -76,5 +83,5 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="/javascripts/script.js"></script>
-
+    <script type="text/javascript" src="/javascripts/contactScript.js"></script>
   </html>
