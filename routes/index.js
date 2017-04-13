@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
-var config= require('./config')
+var config= require('config')
 var xoauth2 = require('xoauth2')
 var smtpTransport = require('nodemailer-smtp-transport');
 /* GET home page. */
