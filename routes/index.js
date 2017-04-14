@@ -46,7 +46,7 @@ var transport = nodemailer.createTransport(smtpTransport({
     transport.sendMail(mailOptions, function(error, info){
      if(error){
             console.log(error);
-        	res.redirect("/");
+        	res.redirect("/contact");
      }else{
             console.log("Message sent: " + info.response);
         	res.redirect("/contact");
