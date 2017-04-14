@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
-var config= require('config')
+// var config= require('config')
 var xoauth2 = require('xoauth2')
 var smtpTransport = require('nodemailer-smtp-transport');
 /* GET home page. */
@@ -23,10 +23,10 @@ var transport = nodemailer.createTransport(smtpTransport({
     service: 'Gmail',
     auth: {
         xoauth2: xoauth2.createXOAuth2Generator({
-                user: config.mailUser,
-                clientId: config.clientId,
-                clientSecret: config.clientSecret,
-                refreshToken: config.refreshToken
+                user: process.env.mailUser,
+                clientId: process.env.clientId,
+                clientSecret: process.env.clientSecret,
+                refreshToken: process.env.refreshToken
             })
     },
     tls: {
