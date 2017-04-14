@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
-// var config= require('config')
+// var config= require('./config')
 var xoauth2 = require('xoauth2')
 var smtpTransport = require('nodemailer-smtp-transport');
 /* GET home page. */
@@ -37,7 +37,7 @@ var transport = nodemailer.createTransport(smtpTransport({
 
 	 var mailOptions={
         from : req.body.name,
-        to : process.env.mailUser,
+        to : config.mailUser,
         subject : 'Web Submit',
         text : "new submission with the following details: Name:"+req.body.name+" email: "+req.body.mail + " message: "+ req.body.comment,
    		html: "<p>YOU HAVE A NEW SUBMIT: <ul><li>Name: "+req.body.name+"</li><li> Email: "+req.body.mail+"   Phone: "+req.body.phone+"</li><li>Message: "+req.body.comment+"</li></ul></p>",
