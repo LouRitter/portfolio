@@ -49,7 +49,7 @@ var transport = nodemailer.createTransport(smtpTransport({
         	res.redirect("/");
      }else{
             console.log("Message sent: " + info.response);
-        	res.redirect("/");
+        	res.redirect("/contact");
          }
 });
 });
