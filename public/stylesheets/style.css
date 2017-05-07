@@ -3,7 +3,7 @@ body {
   background-color: #388e3c; }
 
 nav {
-  background-color: #1b5e20;
+  background-color: rgba(27, 94, 32, 0.7);
   height: 100px;
   border-width: 0px 0px 5px 0px;
   border-color: #cc5500; }
